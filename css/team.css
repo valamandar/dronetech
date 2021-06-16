@@ -77,6 +77,10 @@ body {
   max-width: 1150px;
 }
 
+.designer {
+  display: none !important;
+}
+
 .present {
   background: -webkit-linear-gradient(135deg, #6417a7, #a517a7);
   background: -o-linear-gradient(135deg, #6417a7, #a517a7);

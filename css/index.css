@@ -77,6 +77,10 @@ body {
   max-width: 1150px;
 }
 
+.designer {
+  display: none !important;
+}
+
 .btn {
   height: 40px;
   font-size: 1.2rem;
@@ -317,8 +321,11 @@ body {
 }
 
 .present .img {
-  width: 70%;
+  width: 75%;
   height: auto;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   position: relative;
 }
 
